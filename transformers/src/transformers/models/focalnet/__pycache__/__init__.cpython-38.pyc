@@ -1,0 +1,10 @@
+{
+  "Choiceses": {
+    "FeatureSearch": null,
+    "HardwareScan": "true",
+    "StoreRatingDaysBetween": "30",
+    "StoreRatingMaxCount": "3"
+  },
+  "LastUpdateTime": null,
+  "Etag": null,
+  "CurrentConfiguration": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<HypothesisConfiguration>\n  <HypothesisGroups>\n    <HypothesisGroup name=\"ADummyGroup\">\n      <Filter><![CDATA[\n\t\t\t\t\t{ \"==\":[{\"var\":\"Locale\"}, [\"en\"]] }\n\t\t\t\t]]></Filter>\n      <Choices>\n        <Choice name=\"true\" percent=\"0\"/>\n      </Choices>\n    </HypothesisGroup>\n    <HypothesisGroup name=\"AIMeetingManager\">\n      <Filter><![CDATA[\n          {\"match\":[{\"var\":\"Family\"}, [\"^(Lenovo )?ThinkPad E\",\"^(Lenovo )?ThinkBook\"]]}\n        ]]></Filter>\n      <Choices>\n        <Choice name=\"true\" percent=\"100\"/>\n      </Choices>\n    </HypothesisGroup>\n    <HypothesisGroup name=\"AntivirusLaunchMcAfeeBuy\">\n      <Filter><![CDATA[\n\t\t\t\t{\n\t\t\t\t\t\"and\": [\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\">=\":[{\"InstalledAppVersion\":\"LenovoCompanionAppPlu
